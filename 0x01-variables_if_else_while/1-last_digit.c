@@ -3,20 +3,13 @@
 #include <stdio.h>
 
 #include <time.h>
-
-/* more headers goes there */
-
-
-
 /**
  *
- *  * main - Program entry point
+ *  main - Program entry point
  *
- *   *
+ *  Return: 0 on success. Error code otherwise
  *
- *    * Return: 0 on success. Error code otherwise
- *
- *     */
+ * */
 
 int main(void)
 {
@@ -24,7 +17,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 		lastDigit = n % 10;
-					/* your code goes there */
+					// your code goes there
 		if (lastDigit > 5)
 			printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
 
