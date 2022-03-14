@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- *
- *  * main - Entry point
- *	* myhello prinf task
- *  * Return: Always 0 (Success)
- *
+ *main - Entry point
+ *My hello, prinf task
+ *Return: return 1 after program excution
  */
 int main(void)
 {
