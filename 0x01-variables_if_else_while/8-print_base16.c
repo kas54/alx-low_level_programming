@@ -2,10 +2,9 @@
 
 int main(void)
 {
-    char ch = 'a';
-    int i = 0;
-    
-	while (i < 16)
+char ch = 'a';
+int i = 0;
+ 	while (i < 16)
 	{
 		if (i < 10)
 		{
@@ -19,5 +18,5 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-    return 0;
+    return (0);
 }
